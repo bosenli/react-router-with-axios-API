@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+main{
+  /* border: 1px solid red; */
+  height: 450px;
+  /* background-image: url('https://i.pinimg.com/originals/9b/ee/9c/9bee9ccfece6c7750dca6fc3708b5252.gif'); */
+  background-image: url('https://codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif');
+  
+  background-size: cover;
+}
+header{
+  background-color: aliceblue;
+}
+ul{
+  font-weight: bolder;
+ 
+}
+li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: x-large;
+  
+}
+.h1-header{
+  color:darkcyan;
+}
+
+.div-aboutus *{
+  color:rgb(82, 214, 214);
 }
