@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-
+//after NavLink then to Container.js then container to each element components
 export default function Header(){
     return(
         <header>
@@ -8,12 +8,15 @@ export default function Header(){
                 <NavLink to = "/">
                     <li>Home</li>
                 </NavLink>
+
                 <NavLink to = "/random">
                     <li>Random Advice</li>
                 </NavLink>
+
                 <NavLink to = "/search">
                     <li>Search</li>
                 </NavLink>
+
                 <NavLink to = "/about">
                     <li>AboutUs</li>
                 </NavLink>

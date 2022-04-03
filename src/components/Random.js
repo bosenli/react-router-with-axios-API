@@ -1,3 +1,5 @@
+//related to constants.js, axios call
+
 import { randomAdvice } from "../services/constants";
 
 import { useState, useEffect } from "react";
@@ -6,9 +8,8 @@ function Random(){
 
     const [counsel, setCounsel] = useState("")
 
-
   async function handleClick(){
-      const answer = await randomAdvice();
+      const answer = await randomAdvice();  //from service constants
       console.log(answer);
       const advice = answer.data.slip.advice;
       console.log(advice);
