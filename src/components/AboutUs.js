@@ -1,0 +1,10 @@
+function AboutUs(){
+    return(
+        <div className="div-aboutus">
+            <h1> This is about page</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium quam vulputate dignissim. A lacus vestibulum sed arcu non odio euismod lacinia. Eu mi bibendum neque egestas. Amet nulla facilisi morbi tempus iaculis urna. Adipiscing enim eu turpis egestas pretium. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Adipiscing elit pellentesque habitant morbi tristique. Semper viverra nam libero justo laoreet sit amet cursus. Odio tempor orci dapibus ultrices in iaculis nunc. Volutpat consequat mauris nunc congue nisi vitae suscipit. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. At consectetur lorem donec massa sapien faucibus et. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Viverra suspendisse potenti nullam ac tortor vitae purus. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Est ultricies integer quis auctor elit sed vulputate mi sit. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Arcu non odio euismod lacinia at quis. Urna neque viverra justo nec ultrices dui. Elementum tempus egestas sed sed risus pretium quam vulputate. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Faucibus turpis in eu mi bibendum neque. Ullamcorper morbi tincidunt ornare massa. Ut placerat orci nulla pellentesque dignissim enim. Sit amet nulla facilisi morbi tempus iaculis urna. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Sit amet risus nullam eget felis. Praesent semper feugiat nibh sed. In nisl nisi scelerisque eu ultrices vitae. Integer feugiat scelerisque varius morbi enim. Mauris pellentesque pulvinar pellentesque habitant morbi.</p>
+        </div>
+    )
+}
+
+export default AboutUs;
